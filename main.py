@@ -21,18 +21,18 @@ async def video_cut(param: VideoParameters):
     请求报文范例：
     {
         "video_files": [
-            "https://intoss.polyic.cn/cwzt-public-int/festival/video1_1715912134362.mp4",
-            "https://intoss.polyic.cn/cwzt-public-int/festival/video2_1715912099913.mp4",
-            "https://intoss.polyic.cn/cwzt-public-int/festival/video3_1715912050364.mp4",
-            "https://intoss.polyic.cn/cwzt-public-int/festival/video4_1715911888776.mov"
+            "/video1_1715912134362.mp4",
+            "/video2_1715912099913.mp4",
+            "/video3_1715912050364.mp4",
+            "/video4_1715911888776.mov"
         ],
         "clip_duration": 5,
-        "music_file": "https://intoss.polyic.cn/cwzt-public-int/festival/bg_m_1715912160129.mp3",
+        "music_file": "/bg_m_1715912160129.mp3",
         "size_width": 720,
         "size_height": 1280,
         "text_params": [
             {
-                "txt": "保利和颂",
+                "txt": "一线楼盘",
                 "color": "blue",
                 "fontsize": 80,
                 "font": "Microsoft-YaHei-Bold-&-Microsoft-YaHei-UI-Bold",
